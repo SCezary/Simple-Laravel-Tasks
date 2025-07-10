@@ -25,4 +25,9 @@ Przygotować Dockerfile z "FROM php:8.3-cli" image i w nim uruchomić workery.
 
 Mailera używam na potrzeby tej aplikacji "MAIL_MAILER=log" można podejrzeć w storage->logs->laravel.log
 
+Po wrzuceniu na repozytorium projektu zrzuciłem je sobie do odzielnego katalogu i przeszedłem cały proces uruchomieniowy z
+README wszystko powinno działać.
+
+
+
 
