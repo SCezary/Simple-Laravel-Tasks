@@ -41,7 +41,7 @@ class TaskNotificationMail extends Mailable
         return new Content(
             view: 'mail.task-notification',
             with: [
-                'data' => json_decode($this->email->data, true),
+                'data' => $this->email->data,
             ]
         );
     }
