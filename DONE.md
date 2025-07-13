@@ -11,23 +11,16 @@
 7. Pełna historia edycji notatek:
 - Zapisuj każdą zmianę zadań (nazwy, opisy, priorytety, statusy, daty itp.) wraz z możliwością przeglądania poprzednich wersji.
 
-Generalnie chciałem wykonać wszystkie zadania poprawnie bez błędów oraz dodatkowe ale ze względu na czas i napięty terminarz 
-w tym tyg wykonałem jedno jeżelu uda mi się do końca tyg to zaimplementuję kolejne to samo z dockerem.
-
-Wstępny plan na dockera jest aby wdrożyć 3 kontenery:
+Przygotowałem dockera z 3 kontenerami:
 
 1. PHP/APP z kodem aplikacji oraz workerami
 2. MYSQL bazka 
-3. NGINX/APACHE z przekierowaniem (reverse proxy) na kontener APP
+3. NGINX/z przekierowaniem (reverse proxy) na kontener APP
 
 Całość w jednej sieci.
-Przygotować Dockerfile z "FROM php:8.3-cli" image i w nim uruchomić workery.
-
 Mailera używam na potrzeby tej aplikacji "MAIL_MAILER=log" można podejrzeć w storage->logs->laravel.log
 
 Po wrzuceniu na repozytorium projektu zrzuciłem je sobie do odzielnego katalogu i przeszedłem cały proces uruchomieniowy z
 README wszystko powinno działać.
 
-
-
-
+Projekt przygtowałem bez dockera, docker skonfigurowałem pod projekt na końcu, testowałem na ubuntu powinno działać :)
