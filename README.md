@@ -34,7 +34,7 @@ Mail scheduler is set every 1 minute.
 ## Docker Installation
 #### Optional Installation - should work.
 #### http://laravel-tasks.localhost <- Default APP_URL
-1. Copy .env.docker.example -> .env and set database environment
+1. Copy .env.docker.example -> .env
 ```bash
 cp .env.docker.example .env
 ```
